@@ -1,0 +1,135 @@
+body {
+    background-color: #e0f7fa; /* Light blue background color */
+    font-family: 'Arial', sans-serif; /* Set a default font */
+    margin: 0;
+}
+
+#survey-form {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally with some margin */
+    padding: 20px; /* Add some padding to the form */
+    background-color: #fff; /* White background color for the form */
+    border-radius: 8px; /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+h1, p {
+    color: #004d40; /* Dark green text color for headings and paragraphs */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #004d40; /* Dark green text color for labels */
+}
+
+.qn-group {
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+.qn-group p {
+    font-weight: bold;
+    color: #004d40; /* Dark green text color for question headings */
+    margin-bottom: 10px;
+    text-align: left;
+}
+.qn-group label{
+       display: inline ;
+}
+.input-radio-group,
+.input-checkbox-group {
+    margin-top: 8px;
+    color: #004d40;
+    display: inline-flex;
+}
+
+.input-radio,
+.input-checkbox {
+    margin-right: 8px;
+    display:inline-flex;
+    color: #004d40;
+}
+
+.input-radio-label,
+.input-checkbox-label {
+    display: inline-block;
+    margin-right: 20px;
+    color: #004d40; /* Dark green text color for radio and checkbox labels */
+}
+
+.input-textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #004d40; /* Dark green border */
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+/* Add more styles as needed for your specific design */
+
+select {
+    appearance: none;
+}
+
+.input-radio-group,
+.input-checkbox-group {
+    margin-bottom: 16px;
+}
+
+.input-radio,
+.input-checkbox {
+    margin-right: 8px;
+}
+
+.submit-button {
+    background-color: #004d40; /* Dark green background color */
+    color: #fff; /* White text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: hsl(174, 45%, 67%); /* Darker green on hover */
+}
+
+/* Add more styles as needed for your specific design */
+.name-group{
+    padding-bottom: 2px;
+    padding-top: 3px;
+}
+.name-group label{
+    padding-bottom: 5px;
+}
+.email-group{
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.email-group label{
+    padding-top: 5px;
+}
+.age-group{
+    padding: 2px 3px;
+
+}
+.age-group label{
+    padding-top: 5px;
+}
+.form-group label{
+     padding:5px;
+}
+.attribution {
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(174, 32%, 67%);
+    color: white;
+  }
